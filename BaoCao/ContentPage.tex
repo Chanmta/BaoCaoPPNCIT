@@ -1,0 +1,210 @@
+\documentclass[12pt,twoside,a4paper]{article}
+\usepackage{vntex}
+\usepackage{import}
+\usepackage{titlesec}
+\usepackage{indentfirst}
+\usepackage{geometry}
+\usepackage{tabularx}
+\usepackage{fancyhdr}
+
+\geometry{
+	a4paper,
+	total={160mm,252mm},
+	left=35mm,
+	top=25mm,
+}
+
+\pagestyle{fancyplain}
+\fancyhf{}
+\fancyhead[C]{\thepage}
+\renewcommand{\headrulewidth}{0pt}
+
+\setlength{\parskip}{10pt}
+\titleformat*{\section}{\large\bfseries}
+\setlength{\parindent}{2em}
+
+\begin{document}
+
+\input{MainCoverPage}
+
+\pagebreak
+
+\large
+
+\input{SubCoverPage}
+
+\pagebreak
+
+\makeatletter
+\renewcommand\thesection{Chương \arabic{section}:}
+\renewcommand\thesubsection{\arabic{section}.\arabic{subsection}.}
+\renewcommand\thesubsubsection{\thesubsection\arabic{subsubsection}.}
+\makeatother
+
+%\makeatletter
+%\renewcommand\thesection{Chương \@arabic\c@section}
+%\renewcommand\thesubsection{\arabic{section}.\arabic{subsection}.\c@subsection}
+%\renewcommand\thesubsubsection{\thesubsection.\@arabic\c@subsubsection}
+%\makeatother
+
+\section{Giới thiệu}
+Chương này sẽ gồm phần đặt vấn đề nghiên cứu cái gì? ứng dụng như thế nào?
+\subsection{Đặt vấn đề}
+Một trong những lĩnh vực quan trọng của Trí tuệ nhân tạo (Artificial Intelligence) là thị giác máy (Computer Vision). Computer Vision là một lĩnh vực bao gồm các phương pháp thu nhận, xử lý ảnh kỹ thuật số, phân tích và nhận dạng các hình ảnh, phát hiện các đối tượng, tạo ảnh, siêu phân giải hình ảnh và nhiều hơn vậy. Object Detection có lẽ là khía cạnh sâu sắc nhất của thị giác máy do số lần sử dụng trong thực tế.
+
+Object Detection đề cập đến khả năng của hệ thống máy tính và phần mềm để định vị các đối tượng trong một hình ảnh và xác định từng đối tượng. Object Detection đã được sử dụng rộng rãi để phát hiện khuôn mặt, phát hiện xe, đếm số người đi bộ, hệ thống bảo mật và xe không người lái. Có nhiều cách để nhận diện đối tượng có thể được sử dụng cũng như trong nhiều lĩnh vực thực hành. Giống như mọi công nghệ khác, một loạt các ứng dụng sáng tạo và tuyệt vời của Object Detection sẽ đến từ các lập trình viên và các nhà phát triển phần mềm.
+
+Bắt đầu sử dụng các phương pháp nhận diện đối tượng hiện đại trong các ứng dụng và hệ thống, cũng như xây dựng các ứng dụng mới dựa trên các phương pháp này.Việc triển nhận diện đối tượng sớm liên quan đến việc sử dụng các thuật toán cổ điển, giống như các thuật toán được hỗ trợ trong OpenCV, thư viện computer vision phổ biến. Tuy nhiên, các thuật toán cổ điển này không thể đạt được hiệu suất đủ để làm việc trong các điều kiện khác nhau.
+
+Việc áp dụng đột phát và nhanh cóng của deep learning vào năm 2012 đã đưa vào sự tồn tại các thuật toán và phương pháp phát hiện đối tượng hiện đại và chính xác cao như R-CNN, Fast-RCNN, Faster-RCNN, RetinaNet và nhanh hơn nhưng rất chính xác như SSD và YOLO. Sử dụng các phương pháp và thuật toán này, dựa trên deep learning và cũng dựa trên việc học máy đòi hỏi rất nhiều kiến thức về toán học và việc học sâu. Có hàng triệu chuyên gia lập trình và các nhà phát triển phần mềm muốn tích hợp và tạo ra các sản phẩm mới sử dụng object detection. Nhưng công nghệ này xa tầm tay của họ và phức tạp để hiểu và sử dụng thực tế của nó.
+
+ImageAI, một thư viện python cho phép các lập trình viên và các nhà phát triển phần mềm dễ dàng tích hợp các công nghệ thị giác máy hiện đại vào các ứng dụng hiện có và mới của họ, và chỉ cần sử dụng một vài dòng mã. ImageAI hỗ trợ một danh sách các thuật toán học máy hiện đại nhất cho việc dự đoán hình ảnh,, nhận diện vật thể, phát diện video,...
+
+Hiện nay trên thế giới, các công nghệ nhận dạng hình ảnh đã trở nên vô cùng phát triển, tuy nhiên ở Việt Nam vẫn chưa được áp dụng nhiều, đặc biệt là trong lĩnh vực giao thông. Hiện tại tình trạng giao thông ở Việt Nam còn nhiều bất ổn do ý thức người dân chưa chấp hành tốt luật giao thông và một phần công tác quản lý giao thông chưa triệt để. Nếu công nghệ trí tuệ nhân tạo được áp dụng vào giao thông thì sẽ giúp công tác giao thông có được một lợi thế lớn. Chẳng hạn như sẽ giảm thiểu công việc của cảnh sát giao thông, do công an giao thông không thể giám sát được mọi nơi nên việc áp dụng trí tuệ nhân tạo sẽ dễ dàng bao quát mọi nơi với độ chính xác cao sẽ giúp phát hiện toàn bộ các phương tiện vi phạm luật giao thông. Tất cả các phương tiện vi phạm này sẽ bị ghi lại và bị xử phạt để cảnh cáo, từ đó sẽ hạn chế được nạn vi phạm giao thông tràn lan ở Việt Nam.
+
+Từ đó, nhóm chúng em muốn làm một đề tài liên quan đến việc áp dụng trí tuệ nhân tạo vào lĩnh vực giao thông: Nhận diện các phương tiện đi ngược chiều trên các tuyến đường một chiều qua một camera lắp cố định (có thể bao quát được toàn bộ hai lòng đường, chẳng hạn camera lắp tại một vị trí trên cao chính giữa hai lòng đường Hoàng Quốc Việt) với mục tiêu là phát hiện toàn bộ các phương tiện đi ngược chiều, camera ghi lại và báo cáo cho hệ thống rồi tiến hành xử phạt.
+
+
+\subsection{Lý do chọn đề tài}
+Thứ nhất là trên thế giới tuy đã có những phần mềm đáp ứng được những mục đích trên nhưng có thể giá thành rất đắt đỏ và chưa phù hợp với đặc thù giao thông Việt Nam, cho nên nhóm em quyết định tạo ra một sản phẩm do chính tay người Việt làm, để phục vụ người Việt. Không những thế còn có thể kiếm được một khoản lợi nhuận lớn.
+
+Thứ hai là hiện nay các thư viện mã nguồn mở về trí tuệ nhân tạo rất phổ biến và được công khai nên có thể rất dễ dàng áp dụng chúng để tạo ra những sản phẩm riêng của mình, có thể kể đến các thư viện phổ biến như sau:
+
+OpenCV (Open Computer Vision) là một thư viện mã nguồn mở hàng đầu cho xử lý về thị giác máy tính, machine learning, xử lý ảnh. OpenCV được viết bằng C/C++, vì vậy có tốc độ tính toán rất nhanh, có thể sử dụng với các ứng dụng liên quan đến thời gian thực. Opencv có rất nhiều ứng dụng như Nhận dạng ảnh, Xử lý hình ảnh, Phục hồi hình ảnh ...
+
+CNN (Convolutional Neural Network – Mạng nơ-ron tích chập) là một trong những mô hình Deep Learning tiên tiến. Nó giúp cho chúng ta xây dựng được những hệ thống thông minh với độ chính xác cao như hiện nay. CNN được sử dụng nhiều trong các bài toán nhận dạng các object trong ảnh. Như hệ thống xử lý ảnh lớn như Facebook, Google hay Amazon đã đưa vào sản phẩm của mình những chức năng thông minh như nhận diện khuôn mặt người dùng, phát triển xe hơi tự lái hay drone giao hàng tự động.
+
+YOLO (You only look once) là một mô hình CNN để detect object mà một ưu điểm nổi trội là nhanh, chính xác hơn nhiều so với những mô hình cũ. Với đầu vào là một bức ảnh, hệ thống sẽ khoanh vùng toàn bộ các vật thể xuất hiện trong bức ảnh đó. Hiện tại có 3 phiên bản là YOLOv1, YOLOv2, YOLOv3, phiên bản v3 cực kỳ nhanh và chính xác, tốc độ detect các object trong bức ảnh gần là ngay lập tức.
+
+\subsection{Mục tiêu}
+Với mong muốn góp phần nâng cao ý thức của cộng đồng, giảm thiểu tai nạn giao thông, hướng tới phát triển thành phố thông minh, nhóm em áp dụng hệ thống trí tuệ nhân tạo vào giao thông để theo dõi, tự nhận biết các phương tiện giao thông đi ngược chiều và lưu dữ liệu phục vụ cho việc phạt nguội của cảnh sát giao thông. Từ đó sẽ giảm thiểu được công việc của cảnh sát giao thông và nâng cao độ chính xác trong việc bắt lỗi giao thông.
+
+Thứ hai là trên thế giới tuy đã có những phần mềm đáp ứng được những mục đích trên nhưng có thể giá thành rất đắt đỏ và chưa phù hợp với đặc thù giao thông Việt Nam, cho nên nhóm em quyết định tạo ra một sản phẩm do chính tay người Việt làm, để phục vụ người Việt. Không những thế còn có thể kiếm được một khoản lợi nhuận lớn, giúp em sánh vai cùng những tỷ phú lớn như bin ghết, mắc du cơ béc, giách ma ...
+
+Cuối cùng, đương nhiên là tự tay tạo ra được một sản phẩm, nâng cao kiến thức về lập trình đặc biệt là trí tuệ nhân tạo, phục vụ công việc sau này.
+
+Để đạt được mục tiêu trên, trước hết, nhóm em cần tìm hiểu các công nghệ và các thành tựu thế giới đã đạt được trong lĩnh vực trí tuệ nhân tạo cụ thể là các thành tựu trí tuệ nhân tạo đã đạt được trong giao thông vận tải, mà hiện nay ở Việt Nam vẫn chưa phổ biến
+
+Để thực hiện được đề tài này, chúng em cần những công cụ sau: Một camera độ phân giải cao được lắp đặt tại trung tâm 2 làn đường, một hệ thống máy tính có cấu hình đủ mạnh để xử lý hình ảnh camera đưa về, sử dụng ngôn ngữ Python với các thư viện như OpenCV để nhận diện phần lòng đường, mô hình YOLO để detect các đối tượng trong hình ảnh (các phương tiện và chiều)
+
+Tiếp đến, về lý thuyết nhóm em cần tìm hiểu quy trình xây dựng phần mềm các mô hình, các thư viện sẽ sử dụng
+
+Sau khi tìm hiểu được các lý thuyết để xây dựng phần mềm thì nhóm em sẽ tiến hành khảo sát, phân tích tình hình giao thông thực tế ở Việt Nam
+
+Sau khi khảo sát xong tìm hình giao thông Việt Nam nhóm em sẽ tiến hành xây dựng phần mềm
+
+Và cuối cùng là tiến hành lắp đặt, thử nghiệm trong thực tế và đánh giá
+
+Với đề tài nhóm em, đầu tiên sau khi lắp đặt camera, cần một bước để hệ thống xác định ra 2 làn đường và chiều đi đúng của 2 làn với 2 cách sau: Cách 1 là làm thủ công, sau khi lắp sẽ quy định luôn cho hệ thống các tọa độ của hai làn đường và chiều đi đúng luôn. Cách 2 là để hệ thống tự động nhận diện, trước tiên là lòng đường, sử dụng thư viện OpenCV với các hàm như findContours() và convexHull() để xác định ra được hai làn đường, lưu tọa độ các đỉnh làn đường lại để dùng về sau. Tiếp đó là cần xác định chiều cho 2 làn đường vừa xác định, cần bỏ ra một ngày để hệ thống training, trong một ngày, với mỗi làn đường, hệ thống sẽ liên tục đếm các phương tiện di chuyển theo cả hai chiều, từ đó chiều nào có số lượng xe đi đông hơn sẽ là chiều đúng.
+
+Tiếp đến, để xác định chiều đi của các phương tiện, trước tiên chúng em sẽ sử dụng mô hình YOLO để detect ra các phương tiện có trong bức ảnh, sau đó dựa vào các bức ảnh liên tục thì sẽ xác định được sự di chuyển của các phương tiện, từ đó xác định ra được chiều đi.
+
+Sau khi xác định được chiều đi của phương tiện, hệ thống sẽ kiểm tra xem phương tiện này đang ở làn nào (làn đã được hệ thống xác định), và so sánh với chiều đi đúng của làn đó, nếu sai chiều thì hệ thống sẽ gửi thông tin bao gồm hình ảnh bằng chứng, thời gian, địa điểm vi phạm, biến số xe, loại phương tiện về để làm dữ liệu phục vụ cho việc phạt nguội của cảnh sát giao thông.
+
+Kết quả đạt được: Một hệ thống làm việc khá nhanh và chính xác phân tích, xử lý dữ liệu gần như ngay lập tức, góp phần cải thiện hệ thống giao thông còn nhiều bất cập ở Việt Nam hiện nay.
+
+\subsection{Cấu trúc đồ án}
+\renewcommand{\labelenumi}{Chương \arabic{enumi}:}
+\renewcommand{\labelenumii}{\arabic{enumi}.\arabic{enumii}.}
+\renewcommand{\labelenumiii}{\labelenumii\arabic{enumiii}.}
+\large
+\begin{enumerate}
+	\item Giới thiệu
+	\begin{enumerate}
+		\item Đặt vấn đề
+		\item Lý do chọn đề tài 
+		\item Mục tiêu đặt ra
+	\end{enumerate}
+	\item Nghiên cứu tổng quan về đề tài
+	\begin{enumerate}
+		\item Tìm hiểu về OpenCV
+		\item Tìm hiểu về CNN và YOLO
+		\item Các thành tựu trên thế giới về áp dụng trí tuệ nhân tạo trong giao thông
+	\end{enumerate}
+	\item Phương pháp nghiên cứu
+	\begin{enumerate}
+		\item Cài đặt và chuẩn bị
+		\begin{enumerate}
+			\item Cài đặt camera
+			\item Nhận dạng hai làn đường
+			\item Nhận dạng chiều đúng mỗi làn đường
+		\end{enumerate}
+		\item Nhận chiều phương tiện bằng YOLO
+		\begin{enumerate}
+			\item Nhận diện phương tiện trong ảnh
+			\item Nhận diện chiều các phương tiện
+		\end{enumerate}
+	\end{enumerate}
+	\item Thảo luận
+	\begin{enumerate}
+		\item Đánh giá số liệu
+		\item Điểm mạnh
+		\item Hạn chế
+		\item Xem xét kết quả
+	\end{enumerate}
+	\item Tổng kết
+\end{enumerate}
+\section{Nghiên cứu tổng quan về đề tài}
+\subsection{Tìm hiểu về OpenCV}
+\subsection{Tìm hiểu về CNN và YOLO}
+\subsection{Các thành tựu trên thế giới về áp dụng trí tuệ nhân tạo trong giao thông}
+\section{Phương pháp nghiên cứu}
+\subsection{Cài đặt và chuẩn bị}
+\subsubsection{Cài đặt camera}
+\subsubsection{Nhận diện hai làn đường}
+\subsubsection{Nhận diện chiều đúng mỗi làn đường}
+\subsection{Nhận chiều phương tiện bằng YOLO}
+\subsubsection{Nhận diện phương tiện trong ảnh}
+\subsubsection{Nhận diện chiều các phương tiện}
+\pagebreak
+\section{Thảo luận}
+\subsection{Đánh giá số liệu}
+\subsection{Điểm mạnh}
+\subsection{Hạn chế}
+\subsection{Xem xét kết quả}
+\section{Tổng kết}
+
+\textbf {Kết luận và hướng phát triển}
+\begin{enumerate}
+	\item Kết luận \\
+	Với tình trạng giao thông Việt Nam hiện nay thì việc áp dụng trí tuệ nhân tạo vào là cần thiết, để triển khai trí tuệ nhân tạo vào việc điều hành, điều tiết hoạt động giao thông, Việt Nam sẽ phải đối mặt với rất nhiều thách thức. Tuy vậy, nếu ứng dụng thành công trí tuệ nhân tạo, đây sẽ là lời giải cho bài toán giao thông vốn ngày càng hóc búa do sự phát triển quá nóng của các phương tiện tham gia giao thông tại Việt Nam.
+	\item Hướng phát triển \\
+	Hệ thống có thể cần cải thiện thêm về tốc độ để làm việc Real-time, cải tiến các bước tiền xử lý để chính xác hơn, tránh nhầm lẫn trong việc xác định nhầm phương tiện, nhầm chiều. Hệ thống có thể cải tiến thêm các chức năng như phát hiện vi phạm vượt đèn đỏ, đi ngược chiều, đi sai làn, đỗ xe không đúng nơi quy định ... khi gửi dữ liệu về cần phải nhận dạng đầy đủ các thông tin của xe vi phạm như biển số xe, thời gian, địa điểm, loại phương tiện, loại vi phạm ...
+\end{enumerate}
+\section{Tài liệu tham khảo}
+\renewcommand{\labelenumi}{[\arabic{enumi}]}
+\begin{thebibliography}{9}
+	\bibitem{opencv} BRADSKI, Gary; KAEHLER, Adrian, Learning OpenCV: Computer vision with the OpenCV library, O'Reilly Media, Inc, 2008.
+	\bibitem{opencv2} BRADSKI, Gary; KAEHLER, Adrian, OpenCV. Dr. Dobb’s journal of software tools, 2000, 3.
+	\bibitem{cnn} REN, Shaoqing, et al. Faster r-cnn: Towards real-time object detection with region proposal networks. In: Advances in neural information processing systems. 2015. p. 91-99.
+	\bibitem{tvd} CIOLLI, Robert. Traffic violation detection, recording and evidence processing system. U.S. Patent No 8,134,693, 2012.
+\end{thebibliography}
+
+\section{Dự kiến kế hoạch thực hiện}
+
+\renewcommand{\arraystretch}{2}
+\begin{center}
+	\begin{tabular}{|p{10mm}|p{48mm}|p{22mm}|p{26mm}|l|} 
+		\hline 
+		STT & Nội dung công việc & Thời gian thực hiện & Địa điểm thực hiện & Ghi chú \\ 
+		\hline
+		1 & Tìm hiểu về OpenCV & 2 Tuần & Tại nhà & Nguyễn Ngọc Khánh \\
+		\hline
+		2 & Tìm hiểu về CNN và YOLO & 2 Tuần & Tại nhà & Lý Văn Chản \\
+		\hline
+		3 & Tìm hiểu các thành tựu & 2 Tuần & Tại nhà & Bùi Đình Thủy \\
+		\hline
+		4 & Viết chương trình & 6 Tuần & Tại phòng nghiên cứu & Cả nhóm \\
+		\hline
+		5 & Lắp đặt hệ thống & 1 Tuần & Tại nơi lắp đặt & Cả nhóm \\
+		\hline
+		6 & Đánh giá số liệu & 5 Tuần & Tại phòng nghiên cứu & Cả nhóm \\
+		\hline
+	\end{tabular}
+\end{center}
+\section{Các cơ quan, đơn vị cần liên hệ}
+\section{Kinh phí thực hiện đề tài}
+
+\end{document}
+
+
