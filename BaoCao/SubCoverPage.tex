@@ -1,37 +1,68 @@
+%\usepackage{tikz}
+%\usetikzlibrary{calc}
+%\usepackage[absolute,overlay]{textpos}
+
+\tikz[overlay, remember picture]
+\draw ($(current page.north west) + (35mm,-25mm)$)
+rectangle ($(current page.south east) + (-15mm,20mm)$);
+
 \begin{center}
-\vfill
-\begin{tabular*}{0.8\linewidth}{@{\extracolsep{\fill}}cc}
-	\large BỘ GIÁO DỤC VÀ ĐÀO TẠO  & \large BỘ QUỐC PHÒNG \\
-\end{tabular*}
-\\
-\large HỌC VIỆN KỸ THUẬT QUÂN SỰ
-\\
-\rule{200px}{1px}\\
-ĐỀ CƯƠNG ĐỒ ÁN TỐT NGHIỆP ĐẠI HỌC \\
+	
+	\begin{textblock*}{210mm}(10mm,35mm)
+		\large\textbf{HỌC VIỆN KỸ THUẬT QUÂN SỰ}
+	\end{textblock*}
+	
+\end{center}
+
+\begin{textblock*}{210mm}(75mm,70mm)
+	\textbf{\normalsize \\
+		LÝ VĂN CHẢN \\
+		NGUYỄN NGỌC KHÁNH \\
+		BÙI ĐÌNH THỦY\\
+		KHÓA 15\\
+		HỆ ĐÀO TẠO KỸ SƯ DÂN SỰ
+	}
+\end{textblock*}
+
+\begin{center}
+	
+	\begin{textblock*}{210mm}(10mm,130mm)
+		\textbf{\LARGE ĐỒ ÁN TỐT NGHIỆP ĐẠI HỌC}
+	\end{textblock*}
+	
+	\begin{textblock*}{210mm}(10mm,150mm)
+		\textbf{
+			NGÀNH: CÔNG NGHỆ THÔNG TIN \\
+			MÃ SỐ: 5248020101
+		}
+	\end{textblock*}
+	
+	\begin{textblock*}{160mm}(35mm,175mm)
+		\textbf{\large Đề tài: Nhận diện các phương tiện giao thông đi ngược chiều qua camera lắp đặt cố định tại một tuyến đường}
+	\end{textblock*}
 
 \end{center}
-\vfill
-Chuyên ngành: Công nghệ dữ liệu\\
-Mã số:\\
-Ngày giao đồ án:\\
-Ngày nộp đồ án:\\
-Tên đề tài: Nhận diện các phương tiện giao thông đi ngược chiều qua camera lắp đặt cố định tại một tuyến đường\\ \\
-Học viên thực hiện:
-\smallbreak
-\begin{tabularx}{\linewidth}{l l}
-	 Lý Văn Chản  & CNDL 15\\
-	 Nguyễn Ngọc Khánh  & CNDL 15\\
-	 Bùi Đình Thủy  &  CNDL 15\\
-\end{tabularx}\\\\\\
-Cán bộ hướng dẫn:
-Họ và tên: Trần Cao Trưởng\\
-Cấp bậc: Tiến Sĩ\\
-Học hàm, học vị: GV, T.S\\
-Đơn vị: Bộ môn Khoa học máy tính
 
-\vfill
+\begin{flushright}
+
+	\begin{textblock*}{210mm}(-35mm,205mm)
+		\textit{\textbf{\large\\
+				Cán bộ hướng dẫn khoa học:\\
+				Họ và tên: Trần Cao Trưởng\\
+				Cấp bậc: Tiến Sĩ\\
+				Học hàm, học vị: GV, T.S\\
+				Đơn vị: Bộ môn Khoa học máy tính\\
+		}}
+	\end{textblock*}
+
+\end{flushright}
+
 \begin{center}
-Hà Nội - Năm 2019
+	
+	\begin{textblock*}{210mm}(10mm,260mm)
+		\textbf{\large NĂM 2019}
+	\end{textblock*}
+	
 \end{center}
 
 \thispagestyle{empty}
