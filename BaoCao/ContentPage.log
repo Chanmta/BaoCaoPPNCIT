@@ -1,28 +1,39 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200) (preloaded format=pdflatex 2019.10.11)  7 DEC 2019 13:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200) (preloaded format=pdflatex 2019.10.11)  7 DEC 2019 17:26
 entering extended mode
 **./ContentPage.tex
 (ContentPage.tex
 LaTeX2e <2019-10-01>
 
-("C:\Users\Mountain Chan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\artic
-le.cls"
-Document Class: article 2019/08/27 v1.4j Standard LaTeX document class
+("C:\Users\Mountain Chan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/extsizes\e
+xtreport.cls"
+Document Class: extreport 1996/10/08 v1.0 Non Standard LaTeX document class
 
-("C:\Users\Mountain Chan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\size1
-2.clo"
-File: size12.clo 2019/08/27 v1.4j Standard LaTeX file (size option)
+("C:\Users\Mountain Chan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/extsizes\s
+ize14.clo"
+File: size14.clo 1999/11/11 v1.4a NON-Standard LaTeX file (size option)
+)
+("C:\Users\Mountain Chan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\exsca
+le.sty"
+Package: exscale 2018/09/24 v2.1i Standard LaTeX package exscale
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 57.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/cmex/m/n on input line 57.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/cmex/m/n on input line 57.
+\big@size=\dimen102
 )
 \c@part=\count80
-\c@section=\count81
-\c@subsection=\count82
-\c@subsubsection=\count83
-\c@paragraph=\count84
-\c@subparagraph=\count85
-\c@figure=\count86
-\c@table=\count87
+\c@chapter=\count81
+\c@section=\count82
+\c@subsection=\count83
+\c@subsubsection=\count84
+\c@paragraph=\count85
+\c@subparagraph=\count86
+\c@figure=\count87
+\c@table=\count88
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
-\bibindent=\dimen102
+\bibindent=\dimen103
 )
 ("C:\Users\Mountain Chan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/vntex\vnte
 x.sty"
@@ -229,12 +240,12 @@ Package: titlesec 2019/10/16 v2.13 Sectioning titles
 \ttl@box=\box27
 \beforetitleunit=\skip43
 \aftertitleunit=\skip44
-\ttl@plus=\dimen103
-\ttl@minus=\dimen104
+\ttl@plus=\dimen104
+\ttl@minus=\dimen105
 \ttl@toksa=\toks16
-\titlewidth=\dimen105
-\titlewidthlast=\dimen106
-\titlewidthfirst=\dimen107
+\titlewidth=\dimen106
+\titlewidthlast=\dimen107
+\titlewidthfirst=\dimen108
 )
 ("C:\Users\Mountain Chan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\inde
 ntfirst.sty"
@@ -262,17 +273,17 @@ Package ifvtex Info: VTeX not detected.
 ifxetex.sty"
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-\Gm@cnth=\count88
-\Gm@cntv=\count89
-\c@Gm@tempcnt=\count90
-\Gm@bindingoffset=\dimen108
-\Gm@wd@mp=\dimen109
-\Gm@odd@mp=\dimen110
-\Gm@even@mp=\dimen111
-\Gm@layoutwidth=\dimen112
-\Gm@layoutheight=\dimen113
-\Gm@layouthoffset=\dimen114
-\Gm@layoutvoffset=\dimen115
+\Gm@cnth=\count89
+\Gm@cntv=\count90
+\c@Gm@tempcnt=\count91
+\Gm@bindingoffset=\dimen109
+\Gm@wd@mp=\dimen110
+\Gm@odd@mp=\dimen111
+\Gm@even@mp=\dimen112
+\Gm@layoutwidth=\dimen113
+\Gm@layoutheight=\dimen114
+\Gm@layouthoffset=\dimen115
+\Gm@layoutvoffset=\dimen116
 \Gm@dimlist=\toks18
 
 ("C:\Users\Mountain Chan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/geometry\g
@@ -284,20 +295,20 @@ Package: tabularx 2016/02/03 v2.11b `tabularx' package (DPC)
 ("C:\Users\Mountain Chan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\arra
 y.sty"
 Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
-\col@sep=\dimen116
+\col@sep=\dimen117
 \ar@mcellbox=\box28
-\extrarowheight=\dimen117
+\extrarowheight=\dimen118
 \NC@list=\toks19
 \extratabsurround=\skip45
 \backup@length=\skip46
 \ar@cellbox=\box29
 )
-\TX@col@width=\dimen118
-\TX@old@table=\dimen119
-\TX@old@col=\dimen120
-\TX@target=\dimen121
-\TX@delta=\dimen122
-\TX@cols=\count91
+\TX@col@width=\dimen119
+\TX@old@table=\dimen120
+\TX@old@col=\dimen121
+\TX@target=\dimen122
+\TX@delta=\dimen123
+\TX@cols=\count92
 \TX@ftn=\toks20
 )
 ("C:\Users\Mountain Chan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/fancyhdr\f
@@ -338,7 +349,7 @@ LaTeX Font Info:    ... okay on input line 26.
 * paper: a4paper
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
-* modes: twoside 
+* modes: 
 * h-part:(L,W,R)=(99.58464pt, 455.24408pt, 42.67915pt)
 * v-part:(T,H,B)=(71.13188pt, 717.00945pt, 56.90552pt)
 * \paperwidth=597.50787pt
@@ -346,40 +357,41 @@ LaTeX Font Info:    ... okay on input line 26.
 * \textwidth=455.24408pt
 * \textheight=717.00945pt
 * \oddsidemargin=27.31465pt
-* \evensidemargin=-29.59084pt
-* \topmargin=-38.1381pt
-* \headheight=12.0pt
+* \evensidemargin=27.31465pt
+* \topmargin=-40.1381pt
+* \headheight=14.0pt
 * \headsep=25.0pt
-* \topskip=12.0pt
+* \topskip=14.0pt
 * \footskip=30.0pt
-* \marginparwidth=85.0pt
+* \marginparwidth=15.0pt
 * \marginparsep=10.0pt
 * \columnsep=10.0pt
-* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \skip\footins=12.0pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
 * \@twocolumnfalse
-* \@twosidetrue
-* \@mparswitchtrue
+* \@twosidefalse
+* \@mparswitchfalse
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 (MainCoverPage.tex
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 3.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 3.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 3.
+LaTeX Font Info:    External font `cmex7' loaded for size
+(Font)              <7> on input line 3.
+
+Overfull \hbox (16.95798pt too wide) in alignment at lines 3--5
+[] [] 
+ []
+
 ) [1
 
 {C:/Users/Mountain Chan/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] (Su
 bCoverPage.tex
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14.4> on input line 3.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 3.
+Overfull \hbox (16.95798pt too wide) in alignment at lines 3--5
+[] [] 
+ []
+
 
 Underfull \hbox (badness 10000) in paragraph at lines 14--20
 
@@ -391,7 +403,7 @@ Underfull \hbox (badness 10000) in alignment at lines 25--25
  []
 
 
-Overfull \hbox (23.49426pt too wide) in paragraph at lines 25--31
+Overfull \hbox (28.19308pt too wide) in paragraph at lines 25--31
 [][] 
  []
 
@@ -405,60 +417,66 @@ Underfull \hbox (badness 10000) in paragraph at lines 25--31
 
  []
 
-) [2]
+) [2] (TaskPage.tex)
+Underfull \hbox (badness 10000) in paragraph at lines 6--35
 
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
-Make it at least 14.49998pt.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--35
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--35
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--35
+
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+Make it at least 17.0pt.
 We now make it that large for the rest of the document.
 This may cause the page layout to be inconsistent, however.
 
-[3] [4]
-Underfull \vbox (badness 6842) has occurred while \output is active []
+[3] (ContentPage.toc)
+\tf@toc=\write3
+\openout3 = `ContentPage.toc'.
 
- [5]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+ [4
 
- [6]
-[7]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [8]
-[9]
-Underfull \hbox (badness 10000) in paragraph at lines 189--189
-[]|\T5/cmr/m/n/14.4 àa iºm
+] [5] [6] [7] [8]
+Overfull \hbox (2.76082pt too wide) in paragraph at lines 86--87
+[]\T5/cmr/m/n/17.28 CNN (Con-vo-lu-tional Neu-ral Net-work  M¤ng nì-ron t½ch c
+hªp)
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 197--197
-[]|\T5/cmr/m/n/14.4 T¤i pháng
- []
+[9] [10] [11] [12] [13]
+Overfull \vbox (23.293pt too high) has occurred while \output is active []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 201--201
-[]|\T5/cmr/m/n/14.4 T¤i pháng
- []
+[14] [15] [16
 
-
-Overfull \hbox (37.5668pt too wide) in paragraph at lines 187--204
- [] 
- []
-
-[10] (ContentPage.aux) ) 
+] (ContentPage.aux) ) 
 Here is how much of TeX's memory you used:
- 2056 strings out of 492452
- 27000 string characters out of 3116325
- 98609 words of memory out of 3000000
- 6420 multiletter control sequences out of 15000+200000
- 12170 words of font info for 31 fonts, out of 3000000 for 9000
+ 2091 strings out of 492452
+ 29586 string characters out of 3116325
+ 99358 words of memory out of 3000000
+ 6451 multiletter control sequences out of 15000+200000
+ 11844 words of font info for 26 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 33i,11n,45p,1192b,340s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Users/Mountain Chan/AppData/Local/Programs/MiKTeX 2
-.9/fonts/type1/vntex/vnr/vnbx12.pfb><C:/Users/Mountain Chan/AppData/Local/Progr
-ams/MiKTeX 2.9/fonts/type1/vntex/vnr/vnr12.pfb><C:/Users/Mountain Chan/AppData/
-Local/Programs/MiKTeX 2.9/fonts/type1/vntex/vnr/vnr17.pfb>
-Output written on ContentPage.pdf (10 pages, 80232 bytes).
+ 33i,11n,45p,1384b,342s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Users/Mountain Chan/AppData/Local/Programs/MiKTeX 2.9/
+fonts/type1/vntex/vnr/vnbx12.pfb><C:/Users/Mountain Chan/AppData/Local/Programs
+/MiKTeX 2.9/fonts/type1/vntex/vnr/vnr12.pfb><C:/Users/Mountain Chan/AppData/Loc
+al/Programs/MiKTeX 2.9/fonts/type1/vntex/vnr/vnr17.pfb>
+Output written on ContentPage.pdf (16 pages, 93289 bytes).
 PDF statistics:
- 47 PDF objects out of 1000 (max. 8388607)
+ 66 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
