@@ -1,0 +1,3 @@
+- Đấu chấm cuối mỗi đoạn ở mục 1.3
+- Đoạn cuối 1.3 chi tiết quá, cái này nói về mục tiêu đạt được và muốn đạt. Khi có phương tiện đi ngược chiều thì hệ thống
+sẽ phát hiện và lưu trữ như nào, sau đó xử lý ra sao.
