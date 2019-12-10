@@ -1,24 +1,19 @@
-\contentsline {section}{\numberline {}Chương 1: Giới thiệu}{7}%
-\contentsline {subsection}{\numberline {1.1.}Đặt vấn đề}{7}%
-\contentsline {subsection}{\numberline {1.2.}Lý do chọn đề tài}{10}%
-\contentsline {subsection}{\numberline {1.3.}Mục tiêu}{12}%
-\contentsline {subsection}{\numberline {1.4.}Cấu trúc đồ án}{14}%
-\contentsline {section}{\numberline {}Chương 2: Nghiên cứu tổng quan về đề tài}{17}%
-\contentsline {subsection}{\numberline {2.1.}Tìm hiểu về OpenCV}{17}%
-\contentsline {subsection}{\numberline {2.2.}Tìm hiểu về CNN và YOLO}{17}%
-\contentsline {subsection}{\numberline {2.3.}Các thành tựu trên thế giới về áp dụng trí tuệ nhân tạo trong giao thông}{17}%
-\contentsline {section}{\numberline {}Chương 3: Phương pháp nghiên cứu}{17}%
-\contentsline {subsection}{\numberline {3.1.}Cài đặt và chuẩn bị}{17}%
-\contentsline {subsubsection}{Cài đặt camera}{17}%
-\contentsline {subsubsection}{Nhận diện hai làn đường}{17}%
-\contentsline {subsubsection}{Nhận diện chiều đúng mỗi làn đường}{17}%
-\contentsline {subsection}{\numberline {3.2.}Nhận chiều phương tiện bằng YOLO}{17}%
-\contentsline {subsubsection}{Nhận diện phương tiện trong ảnh}{17}%
-\contentsline {subsubsection}{Nhận diện chiều các phương tiện}{17}%
-\contentsline {section}{\numberline {}Chương 4: Thảo luận}{17}%
-\contentsline {subsection}{\numberline {4.1.}Đánh giá số liệu}{17}%
-\contentsline {subsection}{\numberline {4.2.}Điểm mạnh}{17}%
-\contentsline {subsection}{\numberline {4.3.}Hạn chế}{17}%
-\contentsline {subsection}{\numberline {4.4.}Xem xét kết quả}{17}%
-\contentsline {section}{\numberline {}Chương 5: Tổng kết}{17}%
-\contentsline {section}{\numberline {}Tài liệu tham khảo}{17}%
+\contentsline {section}{\numberline {}Chương 1: Giới thiệu}{7}% 
+\contentsline {subsection}{\numberline {1.1.}Đặt vấn đề}{7}% 
+\contentsline {subsection}{\numberline {1.2.}Lý do chọn đề tài}{10}% 
+\contentsline {subsection}{\numberline {1.3.}Mục tiêu}{12}% 
+\contentsline {subsection}{\numberline {1.4.}Cấu trúc đồ án}{14}% 
+\contentsline {section}{\numberline {}Chương 2: Nghiên cứu tổng quan về đề tài}{17}% 
+\contentsline {subsection}{\numberline {2.1.}Tìm hiểu về OpenCV}{17}% 
+\contentsline {subsection}{\numberline {2.2.}Tìm hiểu về CNN và YOLO}{17}% 
+\contentsline {subsection}{\numberline {2.3.}Các thành tựu trên thế giới về áp dụng trí tuệ nhân tạo trong giao thông}{17}% 
+\contentsline {section}{\numberline {}Chương 3: Phương pháp nghiên cứu}{17}% 
+\contentsline {subsection}{\numberline {3.1.}Cài đặt và chuẩn bị}{17}% 
+\contentsline {subsection}{\numberline {3.2.}Nhận chiều phương tiện bằng YOLO}{17}% 
+\contentsline {section}{\numberline {}Chương 4: Thảo luận}{17}% 
+\contentsline {subsection}{\numberline {4.1.}Đánh giá số liệu}{17}% 
+\contentsline {subsection}{\numberline {4.2.}Điểm mạnh}{17}% 
+\contentsline {subsection}{\numberline {4.3.}Hạn chế}{17}% 
+\contentsline {subsection}{\numberline {4.4.}Xem xét kết quả}{17}% 
+\contentsline {section}{\numberline {}Chương 5: Tổng kết}{17}% 
+\contentsline {section}{\numberline {}Tài liệu tham khảo}{17}% 
