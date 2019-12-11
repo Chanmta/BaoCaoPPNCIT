@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200) (preloaded format=pdflatex 2019.10.11)  10 DEC 2019 18:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200) (preloaded format=pdflatex 2019.10.11)  11 DEC 2019 16:20
 entering extended mode
 **./ContentPage.tex
 (ContentPage.tex
@@ -1022,22 +1022,22 @@ Overfull \hbox (2.76082pt too wide) in paragraph at lines 97--98
 hªp)
  []
 
-[11] [12] [13] [14] [15] [16] [17]
-Underfull \hbox (badness 10000) in paragraph at lines 195--196
+[11] [12] [13] [14] [15] [16]
+Underfull \hbox (badness 10000) in paragraph at lines 187--188
 []\T5/cmr/m/n/17.28 https://nhandan.org.vn/khoahoc-congnghe/item/41678802-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 196--197
+Underfull \hbox (badness 10000) in paragraph at lines 188--189
 []\T5/cmr/m/n/17.28 https://vietnamnet.vn/vn/cong-nghe/vien-thong/tri-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 196--197
+Underfull \hbox (badness 10000) in paragraph at lines 188--189
 \T5/cmr/m/n/17.28 tue-nhan-tao-loi-giai-cho-bai-toan-giao-thong-o-viet-nam-
  []
 
-[18
+[17
 
 ] (ContentPage.aux)
 
@@ -1058,9 +1058,9 @@ ype1/vntex/vnr/vnbxti10.pfb><C:/Users/Mountain Chan/AppData/Local/Programs/MiKT
 eX 2.9/fonts/type1/vntex/vnr/vnr12.pfb><C:/Users/Mountain Chan/AppData/Local/Pr
 ograms/MiKTeX 2.9/fonts/type1/vntex/vnr/vnr17.pfb><C:/Users/Mountain Chan/AppDa
 ta/Local/Programs/MiKTeX 2.9/fonts/type1/vntex/vnr/vnti12.pfb>
-Output written on ContentPage.pdf (18 pages, 354677 bytes).
+Output written on ContentPage.pdf (17 pages, 352458 bytes).
 PDF statistics:
- 84 PDF objects out of 1000 (max. 8388607)
+ 81 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  18 words of extra memory for PDF output out of 10000 (max. 10000000)
 
